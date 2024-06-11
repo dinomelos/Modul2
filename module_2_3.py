@@ -1,9 +1,9 @@
-my_list = [42, 69, 0, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+numbers = [7, 3, 5, 8, 0, 6, 9, 4]
 i = 0
-while i < len(my_list):
-    if my_list[i] < 0:
+while i < len(numbers):
+    if numbers[i] == 0:
         break
-    if my_list[i] > 0:
-        print(my_list[i])
+    if numbers[i] > 0:
+        print(numbers[i])
     i += 1
 
